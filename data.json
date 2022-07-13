@@ -1,0 +1,48 @@
+[
+    {
+        "provincia": "Buenos Aires",
+        "nombre": "Sergio Enrique Isasmendi",
+        "telefono": 2320517770,
+        "mail": "sergio_isasmendi@hotmail.es",
+        "id": 1
+    },
+    {
+        "provincia": "Catamarca",
+        "nombre": "Gustavo Sosa",
+        "telefono": 3834786241,
+        "mail": "organizedstage@gmail.com",
+        "id": 2
+    },
+    {
+        "provincia": "Chaco",
+        "nombre": "Sergio Javier Romero",
+        "telefono": 3624699700,
+        "mail": "javi.1990.78@gmail.com",
+        "id": 3
+    },
+    {
+        "provincia": "Chubut",
+        "nombre": "Marcos Silvestre Barrientos",
+        "telefono": 2974789387,
+        "mail": "genesisdelfina82@gmail.com",
+        "id": 4
+    },
+    {
+        "provincia": "Córdoba",
+        "nombre": "Raul ludueña",
+        "telefono": 3516013243,
+        "mail": "rluduena470@gmail.com",
+        "id": 5
+    },
+    {
+        "provincia": "Corrientes",
+        "nombre": "Sergio Maximiliano Almiron",
+        "telefono": 3772440769,
+        "mail": "maxi1494@hotmail.com",
+        "id": 6
+    }
+
+
+
+
+]
