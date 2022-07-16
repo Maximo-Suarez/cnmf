@@ -1,0 +1,39 @@
+.header{
+    background-color: $color-primario;
+    position: fixed;
+    z-index: 1000;
+    width: -webkit-fill-available;
+    height: 5rem;
+    &__nav{
+        position: relative;
+        top:1rem;
+        div{
+            background-color: $color-primario;
+            button{
+                position: relative;
+            }
+            .nav__logo{
+                height: 80px;
+                position: absolute;
+                left: 50%;
+                top: -1rem;
+                transform: translateX(-50%);
+                a{
+                    padding: 0;
+                    margin: 0;
+                }
+            }
+            .nav__contenedorLista{
+                justify-content: flex-end;
+                .contenedorLista__lista{
+                    li{
+                        a{
+                            text-decoration: none;
+                            color: $color-terciario;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
