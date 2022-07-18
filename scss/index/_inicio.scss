@@ -36,4 +36,20 @@ body{
             }
         }
     }
+    &__carrousel{
+        margin: 32px auto;
+        border: solid 1px $color-primario;
+        .carrousel__titulo{
+            text-align: center;
+            color: $color-primario;
+            font-size: $subtituloh3;
+            background-color: #e4dfdf;
+            margin: 0;
+            font-weight: 900;
+        }
+        .carrousel__flecha{
+            height: 3rem;
+            width: 3rem;
+        }
+    }
 }

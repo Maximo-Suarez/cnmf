@@ -1,0 +1,40 @@
+.yt{
+    &__subtitulo{
+        margin: 32px auto;
+        font-size: $subtituloh2;
+        border-left: solid .5rem $color-primario;
+        padding: 0 1rem;
+        line-height: 3rem;
+        color: $color-secundario;
+    }
+    &__texto{
+        margin: 32px auto;
+        font-size: $subtituloh4;
+        color: $color-secundario;
+    }
+    &__contenedorIcon{
+        margin: 32px auto;
+        display: flex;
+        align-items: center;
+        .contenedorIcon__icon{
+            height: 100px;
+            color: $color-secundario;
+        }
+        .contenedorIcon__texto{
+            color: $color-secundario;
+            font-size: $texto;
+            a{
+                color: $color-primario;
+            }
+        }
+    }
+    &__link{
+        background-color: $color-primario;
+        border-radius: .8rem;
+        font-size: 2rem;
+        margin: auto;
+        padding: 1rem;
+        text-decoration: none;
+        color: $color-terciario;
+    }
+}
