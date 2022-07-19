@@ -29,12 +29,18 @@
         }
     }
     &__link{
+        display: inline-block;
         background-color: $color-primario;
-        border-radius: .8rem;
+        border-radius: 1rem;
         font-size: 2rem;
-        margin: auto;
-        padding: 1rem;
+        padding: .2rem;
         text-decoration: none;
+        text-align: center;
         color: $color-terciario;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 10rem;
+        margin-bottom: 2rem;
     }
 }
