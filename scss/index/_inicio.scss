@@ -8,6 +8,7 @@ body{
 }
 .inicio{
     width: 100%;
+    margin: 0;
     &__img{
         width: -webkit-fill-available;
         padding: 0;
@@ -38,6 +39,7 @@ body{
     }
     &__carrousel{
         margin: 32px auto;
+        padding: 0;
         border: solid 1px $color-primario;
         .carrousel__titulo{
             text-align: center;

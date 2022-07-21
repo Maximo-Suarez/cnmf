@@ -1,0 +1,22 @@
+.reglamento{
+    width: 100%;
+    margin: 0;
+    &__img{
+        width: -webkit-fill-available;
+        padding: 0;
+        margin: 5rem auto 32px auto;
+    }
+    &__titulo{
+        text-align: center;
+        color: $color-primario;
+        font-size: $titulo;
+        font-weight: 900;
+        margin: 32px auto;
+    }
+    &__texto{
+        font-size: $subtituloh3;
+        color: $color-secundario;
+        font-weight: 900;
+        margin: 1rem auto;
+    }
+}

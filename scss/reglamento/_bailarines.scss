@@ -1,0 +1,15 @@
+.bailarines{
+    &__subtitulo{
+        margin: 32px auto;
+        font-size: $subtituloh2;
+        border-left: solid .5rem $color-primario;
+        padding: 0 1rem;
+        line-height: 3rem;
+        color: $color-primario;
+    }
+    &__texto{
+        margin: 16px auto 32px auto;
+        font-size: $texto;
+        color: $color-secundario;
+    }
+}
