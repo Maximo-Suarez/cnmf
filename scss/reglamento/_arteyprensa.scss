@@ -1,0 +1,93 @@
+.artesania{
+    margin: 16px 0;
+    width: 100%;
+    * {
+        padding: 0;
+    }
+    &__subtitulo{
+        margin: 32px auto;
+        font-size: $subtituloh2;
+        border-left: solid .5rem $color-primario;
+        padding: 0 1rem;
+        line-height: 3rem;
+        color: $color-primario;
+    }
+    &__info{
+        margin: 16px auto;
+        .info__subtitulo{
+            font-size: $subtituloh3;
+            color: $color-secundario;
+            span{
+                color: $color-primario;
+            }
+        }
+        .info__texto{
+            color: $color-secundario;
+        }
+        .info__pasos{
+            margin: auto;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            height: 30rem;
+            align-items: flex-start;
+            .pasos__subtitulo{
+                font-size: $subtituloh4;
+                color: $color-primario;
+                margin: 0 auto;
+                text-align: center;
+            }
+            .pasos__pasosContenedor{
+                margin: 0 auto;
+                .pasosContenedor__paso{
+                    display: flex;
+                    align-items: center;
+                    width: 100%;    
+                    .paso__img{
+                        height: 70px;
+                        width: 70px;    
+                    }
+                    .paso__texto{
+                        font-size: $texto;
+                        color: $color-secundario;
+                        padding: 1rem;
+                        padding-bottom: 0;
+                    }
+                }
+                .paso2{
+                    p{
+                        text-align: end;
+                    }    
+                }
+            }
+        }
+    }
+    &__contacto{
+        margin: 16px auto;
+        .contacto__subtitulo{
+            font-size: $subtituloh3;
+            color: $color-secundario;
+            span{
+                color: $color-primario;
+            }
+        }
+    }
+}
+
+.prensa{
+    margin: 16px 0;
+    width: 100%;
+    * {
+        padding: 0;
+    }
+    &__subtitulo{
+        margin: 32px auto;
+        font-size: $subtituloh2;
+        border-left: solid .5rem $color-primario;
+        padding: 0 1rem;
+        line-height: 3rem;
+        color: $color-primario;
+    }
+
+}

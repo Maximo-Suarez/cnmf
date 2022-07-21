@@ -40,7 +40,51 @@
         "telefono": 3772440769,
         "mail": "maxi1494@hotmail.com",
         "id": 6
+    },
+    {
+        "provincia": "Entre Ríos",
+        "nombre": "Alejandra Fabiana Avanzini",
+        "telefono": 3442498975,
+        "mail": "arcoirisaleavanzini@hotmail.com",
+        "id": 7
+    },
+    {
+        "provincia": "Formosa",
+        "nombre": "Nelida Beatriz Bassi",
+        "telefono": 3704768746,
+        "mail": "nelida.nego@gmail.com",
+        "id": 8 
+    },
+    {
+        "provincia": "Jujuy",
+        "nombre": "Esteban Nieva",
+        "telefono": 3884421362,
+        "mail": "cucho.esteban@gmail.com",
+        "id": 9
+    },
+    {
+        "provincia": "La Pampa",
+        "nombre": "Agustina Pescara",
+        "telefono": 2954594317,
+        "mail": "pescaraagus17@gmail.com",
+        "id": 10
+    },
+    {
+        "provincia": "La Rioja",
+        "nombre": "Carlos Fabian Moreno",
+        "telefono": 3804730807,
+        "mail": "malambofem.larioja@gmail.com",
+        "id": 11
+    },
+    {
+        "provincia": "Mendoza",
+        "nombre": "Sergio Horacio Magallanes",
+        "telefono": 2616668776,
+        "mail": "escuelachakaymanta@gmail.com",
+        "id": 12
     }
+
+
 
 
 
