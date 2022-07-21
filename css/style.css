@@ -50,45 +50,43 @@ body {
   body * {
     font-family: 'Raleway', sans-serif; }
 
-.inicio__img {
-  width: -webkit-fill-available;
-  margin-top: 5rem;
-  padding: 0;
-  margin: 5rem auto 32px auto; }
-
-.inicio__titulo {
-  color: #EB5022;
-  font-size: 3rem;
-  font-weight: 900;
-  margin: 32px auto; }
-
-.inicio__icons {
-  margin: 32px auto; }
-  .inicio__icons .icons__iconContainer {
-    margin-bottom: 2rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center; }
-    .inicio__icons .icons__iconContainer .iconContainer__icon {
-      height: 58px;
-      margin-bottom: 12px; }
-    .inicio__icons .icons__iconContainer .iconContainer__texto {
-      font-size: 1rem;
-      color: #585858; }
-
-.inicio__carrousel {
-  margin: 32px auto;
-  border: solid 1px #EB5022; }
-  .inicio__carrousel .carrousel__titulo {
-    text-align: center;
+.inicio {
+  width: 100%; }
+  .inicio__img {
+    width: -webkit-fill-available;
+    padding: 0;
+    margin: 5rem auto 32px auto; }
+  .inicio__titulo {
     color: #EB5022;
-    font-size: 2.25rem;
-    background-color: #e4dfdf;
-    margin: 0;
-    font-weight: 900; }
-  .inicio__carrousel .carrousel__flecha {
-    height: 3rem;
-    width: 3rem; }
+    font-size: 3rem;
+    font-weight: 900;
+    margin: 32px auto; }
+  .inicio__icons {
+    margin: 32px auto; }
+    .inicio__icons .icons__iconContainer {
+      margin-bottom: 2rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      .inicio__icons .icons__iconContainer .iconContainer__icon {
+        height: 58px;
+        margin-bottom: 12px; }
+      .inicio__icons .icons__iconContainer .iconContainer__texto {
+        font-size: 1rem;
+        color: #585858; }
+  .inicio__carrousel {
+    margin: 32px auto;
+    border: solid 1px #EB5022; }
+    .inicio__carrousel .carrousel__titulo {
+      text-align: center;
+      color: #EB5022;
+      font-size: 2.25rem;
+      background-color: #e4dfdf;
+      margin: 0;
+      font-weight: 900; }
+    .inicio__carrousel .carrousel__flecha {
+      height: 3rem;
+      width: 3rem; }
 
 .novedades {
   margin: 64px 0; }

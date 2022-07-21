@@ -7,9 +7,9 @@ body{
     }
 }
 .inicio{
+    width: 100%;
     &__img{
         width: -webkit-fill-available;
-        margin-top: 5rem;
         padding: 0;
         margin: 5rem auto 32px auto;
     }
