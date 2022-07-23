@@ -184,6 +184,8 @@ body {
 .bailarines {
   margin: 16px 0;
   width: 100%; }
+  .bailarines * {
+    padding: 0; }
   .bailarines__subtitulo {
     margin: 32px auto;
     font-size: 2.5rem;
@@ -192,7 +194,7 @@ body {
     line-height: 3rem;
     color: #EB5022; }
   .bailarines__texto {
-    margin: 16px auto 32px auto;
+    margin: 16px auto;
     font-size: 1.87rem;
     color: #585858; }
     .bailarines__texto span {
@@ -201,12 +203,12 @@ body {
     margin: 16px auto;
     width: 100%; }
     .bailarines__pasos .pasos__subtitulo {
-      margin: auto;
+      margin: 16px auto;
       font-size: 2.25rem;
       color: #EB5022;
       text-align: center; }
     .bailarines__pasos .pasos__texto {
-      margin: auto;
+      margin: 16px auto;
       font-size: 1.87rem;
       color: #585858;
       text-align: center; }
@@ -263,43 +265,44 @@ body {
     line-height: 3rem;
     color: #EB5022; }
   .artesania__info {
-    margin: 16px auto; }
+    margin: 16px auto;
+    width: 100%; }
     .artesania__info .info__subtitulo {
+      margin: 0 auto 16px auto;
       font-size: 2.25rem;
       color: #585858; }
       .artesania__info .info__subtitulo span {
         color: #EB5022; }
     .artesania__info .info__texto {
-      color: #585858; }
-    .artesania__info .info__pasos {
       margin: auto;
-      box-sizing: border-box;
+      font-size: 1rem;
+      color: #585858; }
+    .artesania__info .info__subtitulo2 {
+      font-size: 1.87rem;
+      color: #EB5022;
+      margin: 0 auto;
+      text-align: center; }
+    .artesania__info .info__pasosContenedor {
+      margin: auto;
       display: flex;
       flex-direction: column;
       justify-content: space-evenly;
       height: 30rem;
       align-items: flex-start; }
-      .artesania__info .info__pasos .pasos__subtitulo {
-        font-size: 1.87rem;
-        color: #EB5022;
-        margin: 0 auto;
-        text-align: center; }
-      .artesania__info .info__pasos .pasos__pasosContenedor {
-        margin: 0 auto; }
-        .artesania__info .info__pasos .pasos__pasosContenedor .pasosContenedor__paso {
-          display: flex;
-          align-items: center;
-          width: 100%; }
-          .artesania__info .info__pasos .pasos__pasosContenedor .pasosContenedor__paso .paso__img {
-            height: 70px;
-            width: 70px; }
-          .artesania__info .info__pasos .pasos__pasosContenedor .pasosContenedor__paso .paso__texto {
-            font-size: 1rem;
-            color: #585858;
-            padding: 1rem;
-            padding-bottom: 0; }
-        .artesania__info .info__pasos .pasos__pasosContenedor .paso2 p {
-          text-align: end; }
+      .artesania__info .info__pasosContenedor .pasosContenedor__paso {
+        display: flex;
+        align-items: center;
+        width: 100%; }
+        .artesania__info .info__pasosContenedor .pasosContenedor__paso .paso__img {
+          height: 70px;
+          width: 70px; }
+        .artesania__info .info__pasosContenedor .pasosContenedor__paso .paso__texto {
+          font-size: 1rem;
+          color: #585858;
+          padding: 1rem;
+          padding-bottom: 0; }
+      .artesania__info .info__pasosContenedor .paso2 p {
+        text-align: end; }
   .artesania__contacto {
     margin: 16px auto; }
     .artesania__contacto .contacto__subtitulo {
@@ -307,6 +310,13 @@ body {
       color: #585858; }
       .artesania__contacto .contacto__subtitulo span {
         color: #EB5022; }
+    .artesania__contacto .contacto__img {
+      width: 55px;
+      height: 55px; }
+    .artesania__contacto .contacto__num {
+      font-size: 1.87rem;
+      color: #585858;
+      display: inline; }
 
 .prensa {
   margin: 16px 0;
@@ -320,3 +330,17 @@ body {
     padding: 0 1rem;
     line-height: 3rem;
     color: #EB5022; }
+  .prensa__contacto {
+    margin: 16px auto; }
+    .prensa__contacto .contacto__subtitulo {
+      font-size: 2.25rem;
+      color: #585858; }
+      .prensa__contacto .contacto__subtitulo span {
+        color: #EB5022; }
+    .prensa__contacto .contacto__img {
+      width: 55px;
+      height: 55px; }
+    .prensa__contacto .contacto__num {
+      font-size: 1.87rem;
+      color: #585858;
+      display: inline; }
