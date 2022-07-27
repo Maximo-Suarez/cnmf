@@ -344,3 +344,35 @@ body {
       font-size: 1.87rem;
       color: #585858;
       display: inline; }
+
+.contacto {
+  position: relative;
+  top: 5rem;
+  margin: 0 0 5rem 0;
+  width: 100%; }
+  .contacto * {
+    padding: 0; }
+  .contacto__titulo {
+    text-align: center;
+    color: #EB5022;
+    font-size: 3rem;
+    margin: 40px auto 0 auto;
+    font-weight: 900;
+    line-height: 1; }
+  .contacto__bg-img {
+    width: 100%; }
+  .contacto__datos {
+    background-color: #EB5022;
+    margin: 0;
+    position: relative; }
+    .contacto__datos * {
+      margin: 0;
+      color: #F3EFEF; }
+    .contacto__datos .datos__bg {
+      position: absolute;
+      bottom: 100%; }
+    .contacto__datos .datos__subtitulo {
+      font-size: 2.5rem;
+      margin: 16px auto; }
+    .contacto__datos .datos__icons {
+      margin: 16px auto; }
