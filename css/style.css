@@ -356,7 +356,7 @@ body {
     text-align: center;
     color: #EB5022;
     font-size: 3rem;
-    margin: 40px auto 0 auto;
+    margin: 3rem auto 0 auto;
     font-weight: 900;
     line-height: 1; }
   .contacto__bg-img {
@@ -375,4 +375,12 @@ body {
       font-size: 2.5rem;
       margin: 16px auto; }
     .contacto__datos .datos__icons {
-      margin: 16px auto; }
+      margin: 2rem auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      .contacto__datos .datos__icons .icons__icon {
+        height: 65px;
+        width: 65px; }
+      .contacto__datos .datos__icons .icons__texto {
+        color: #F3EFEF; }

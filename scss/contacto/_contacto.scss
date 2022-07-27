@@ -10,7 +10,7 @@
         text-align: center;
         color: $color-primario;
         font-size: $titulo;
-        margin: 40px auto 0 auto;
+        margin: 3rem auto 0 auto;
         font-weight: 900;
         line-height: 1
     }
@@ -34,8 +34,17 @@
             margin: 16px auto;
         }
         .datos__icons{
-            margin: 16px auto;
-            
+            margin: 2rem auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .icons__icon{
+                height: 65px;
+                width: 65px;
+            }
+            .icons__texto{
+                color: $color-terciario;
+            }
         }
     }
 }
