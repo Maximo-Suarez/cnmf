@@ -246,11 +246,45 @@ body {
         margin: 1rem;
         padding: .5rem; }
       .bailarines__pasos .pasos__buscador .buscador__mostrador {
-        background-color: #F3EFEF;
+        background-color: #dfd8d8;
+        padding: 1rem;
         margin: 0 auto;
         width: 90%;
         height: 75%;
-        border-radius: 1rem; }
+        border-radius: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        .bailarines__pasos .pasos__buscador .buscador__mostrador .mostrador__texto {
+          color: #9b9696;
+          font-size: 1.5rem; }
+        .bailarines__pasos .pasos__buscador .buscador__mostrador .mostrador__contenedor .contenedor__provincia {
+          font-size: 2.25rem;
+          color: #EB5022;
+          text-align: center;
+          margin: 0; }
+        .bailarines__pasos .pasos__buscador .buscador__mostrador .mostrador__contenedor .contenedor__img {
+          height: 70px;
+          width: 70px;
+          border-radius: 100%;
+          display: inline; }
+          .bailarines__pasos .pasos__buscador .buscador__mostrador .mostrador__contenedor .contenedor__img img {
+            height: inherit;
+            width: inherit;
+            border-radius: 100%; }
+        .bailarines__pasos .pasos__buscador .buscador__mostrador .mostrador__contenedor .contenedor__nombre {
+          font-size: 1.2rem;
+          display: inline;
+          color: #585858;
+          padding: 0 1rem; }
+        .bailarines__pasos .pasos__buscador .buscador__mostrador .mostrador__contenedor .contenedor__email {
+          color: #585858;
+          margin: .25rem 0; }
+        .bailarines__pasos .pasos__buscador .buscador__mostrador .mostrador__contenedor .contenedor__telefono {
+          color: #585858;
+          margin: .25rem 0; }
+      .bailarines__pasos .pasos__buscador .bg-blanco {
+        background-color: #F3EFEF; }
 
 .artesania {
   margin: 16px 0;

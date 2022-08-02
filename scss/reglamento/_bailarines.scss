@@ -77,11 +77,57 @@
                 padding: .5rem;
             }
             .buscador__mostrador{
-                background-color: $color-terciario;
+                background-color: #dfd8d8;
+                padding: 1rem;
                 margin: 0 auto;
                 width: 90%;
                 height: 75%;
                 border-radius: 1rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .mostrador__texto{
+                    color: #9b9696;
+                    font-size: 1.5rem;
+                }
+                .mostrador__contenedor{
+                    .contenedor__provincia{
+                        font-size: $subtituloh3;
+                        color: $color-primario;
+                        text-align: center;
+                        margin: 0;
+                    }
+                    .contenedor__img{
+                        height: 70px;
+                        width: 70px;
+                        border-radius: 100%;
+                        display: inline;
+                        img{
+                            height: inherit;
+                            width: inherit;
+                            border-radius: 100%;
+                        }
+                    }
+                    .contenedor__nombre{
+                        font-size: 1.2rem;
+                        display: inline;
+                        color: $color-secundario;
+                        padding: 0 1rem;
+                    }
+                    .contenedor__email{
+                        color: $color-secundario;
+                        font-size: 1.2rem;
+                        margin: .25rem 0;
+                    }
+                    .contenedor__telefono{
+                        color: $color-secundario;
+                        font-size: 1.2rem;
+                        margin: .25rem 0;
+                    }
+                }
+            }
+            .bg-blanco{
+                background-color: $color-terciario;
             }
         }
     }
