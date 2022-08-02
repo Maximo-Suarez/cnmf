@@ -4,138 +4,183 @@
         "nombre": "Sergio Enrique Isasmendi",
         "telefono": 2320517770,
         "mail": "sergio_isasmendi@hotmail.es",
+        "img": "buenos-aires-sergio-isasmendi.jpg",
         "id": 1
-    },{
+    },
+    {
         "provincia": "Catamarca",
         "nombre": "Gustavo Sosa",
         "telefono": 3834786241,
         "mail": "organizedstage@gmail.com",
+        "img": "catamarca-gustavo-sosa.jpg" ,
         "id": 2
-    },{
+    },
+    {
         "provincia": "Chaco",
         "nombre": "Sergio Javier Romero",
         "telefono": 3624699700,
         "mail": "javi.1990.78@gmail.com",
+        "img": "chaco-sergio-romero.jpg" ,
         "id": 3
-    },{
+    },
+    {
         "provincia": "Chubut",
         "nombre": "Marcos Silvestre Barrientos",
         "telefono": 2974789387,
         "mail": "genesisdelfina82@gmail.com",
+        "img": "chubut-marcos-barrientos.jpg" ,
         "id": 4
-    },{
+    },
+    {
         "provincia": "Córdoba",
         "nombre": "Raul ludueña",
         "telefono": 3516013243,
         "mail": "rluduena470@gmail.com",
+        "img": "cordoba-raul-luduena.jpg" ,
         "id": 5
-    },{
+    },
+    {
         "provincia": "Corrientes",
         "nombre": "Sergio Maximiliano Almiron",
         "telefono": 3772440769,
         "mail": "maxi1494@hotmail.com",
+        "img": "corrientes-sergio-almiron.jpg" ,
         "id": 6
-    },{
+    },
+    {
         "provincia": "Entre Ríos",
         "nombre": "Alejandra Fabiana Avanzini",
         "telefono": 3442498975,
         "mail": "arcoirisaleavanzini@hotmail.com",
+        "img": "entre-rios-alejandra-avanzini.jpg" ,
         "id": 7
-    },{
+    },
+    {
         "provincia": "Formosa",
         "nombre": "Nelida Beatriz Bassi",
         "telefono": 3704768746,
         "mail": "nelida.nego@gmail.com",
+        "img": "formosa-nelida-bassi.jpg" ,
         "id": 8 
-    },{
+    },
+    {
         "provincia": "Jujuy",
         "nombre": "Esteban Nieva",
         "telefono": 3884421362,
         "mail": "cucho.esteban@gmail.com",
+        "img": "jujuy-esteban-nieva.jpg" ,
         "id": 9
-    },{
+    },
+    {
         "provincia": "La Pampa",
         "nombre": "Agustina Pescara",
         "telefono": 2954594317,
         "mail": "pescaraagus17@gmail.com",
+        "img": "la-pampa-agustina-pescara.jpg" ,
         "id": 10
-    },{
+    },
+    {
         "provincia": "La Rioja",
         "nombre": "Carlos Fabian Moreno",
         "telefono": 3804730807,
         "mail": "malambofem.larioja@gmail.com",
+        "img": "la-rioja-carlos-moreno.jpg" ,
         "id": 11
-    },{
+    },
+    {
         "provincia": "Mendoza",
         "nombre": "Sergio Horacio Magallanes",
         "telefono": 2616668776,
         "mail": "escuelachakaymanta@gmail.com",
+        "img": "mendoza-sergio-magallanes.jpg" ,
         "id": 12
-    },{
+    },
+    {
         "provincia": "Misiones",
         "nombre": "Silvia Araceli Amaro",
         "telefono": 3755536962,
         "mail": "pasiongauchaprofemaro@yahoo.com",
+        "img": "misiones-silvia-amaro.jpg" ,
         "id": 13
-    },{
+    },
+    {
         "provincia": "Neuquén",
         "nombre": "Graciela Rosa Pogonza",
         "telefono": 2995236221,
         "mail": "graciela_pogon15@hotmail.com",
+        "img": "neuquen-graciela-pogonza.jpg" ,
         "id": 14
-    },{
+    },
+    {
         "provincia": "Río Negro",
         "nombre": "Hernan Cuevas",
         "telefono": 2920253873,
         "mail": "evolucionsur2007@gmail.com",
+        "img": "rio-negro-hernan-cuevas.jpg" ,
         "id": 15
-    },{
+    },
+    {
         "provincia": "Salta",
         "nombre": "Mabel Rivadeo",
         "telefono": 3874081198,
         "mail": "preselectivosaltacnmf@gmail.com",
+        "img": "salta-mabel-rivadeo.jpg" ,
         "id": 16
-    },{
+    },
+    {
         "provincia": "San Juan",
         "nombre": "Julieta Lucia Campillay Fernandez",
         "telefono": [2645064824, 2646247093],
         "mail": "studioartesanjuan@gmail.com",
+        "img": "san-juan-julieta-fernandez.jpg" ,
         "id": 17
-    },{
+    },
+    {
         "provincia": "San Luis",
         "nombre": "Alan Javier Urquiza Manzanelli",
         "telefono": 2664349020,
         "mail": "cnmfsanluis@gmail.com",
+        "img": "san-luis-alan-manzanelli.jpg" ,
         "id": 18
-    },{
+    },
+    {
         "provincia": "Santa Cruz",
         "nombre": "Victor Osvaldo Perez",
         "telefono": 2902486311,
         "mail": "lacuencamalambo@gmail.com",
+        "img": "santa-cruz-victor-perez.jpg" ,
         "id": 19
-    },{
+    },
+    {
         "provincia": "Santa Fe",
         "nombre": "David Daniel Zambrano Castelli",
         "telefono": 3464446362,
         "mail": "bambidavid27@gmail.com",
+        "img": "santa-fe-david-castelli.jpg" ,
         "id": 20
-    },{
+    },
+    {
         "provincia": "Santiago del Estero",
         "nombre": "Walter Luis Montenegro",
         "telefono": 3841434718,
         "mail": "facaldsfmontenegro@gmail.com",
+        "img": "santiago-del-estero-walter-montenegro.jpg" ,
         "id": 21
-    },{
+    },
+    {
         "provincia": "Tierra del Fuego",
         "nombre": "Nicolas Andres Canestrari",
         "telefono": 2964608715,
         "mail": "nacanestrari@gmail.com",
+        "img": "tierra-del-fuego-nicolas-canestreri.jpg" ,
         "id": 22
-    },{
+    },
+    {
         "provincia": "Tucumán",
         "nombre": "Daniel Godoy",
         "telefono": 3816663912,
         "mail": "daggodoy2016@gmail.com",
+        "img": "tucuman-daniel-godoy.jpg" ,
         "id": 23
     }
 ]

@@ -79,8 +79,7 @@
                 </div>
                 <div class="pasos__buscador shadow-lg col-11">
                     <!-- buscador -->
-                    <select name="buscador" id="buscador">
-                        <option value="">Seleccioná una provincia</option>
+                    <select name="buscador" id="buscador" onchange="mostrar(selector.value)">
                         <option value="Buenos Aires">Buenos Aires</option>
                         <option value="Catamarca">Catamarca</option>
                         <option value="Chaco">Chaco</option>
@@ -101,12 +100,12 @@
                         <option value="San Luis">San Luis</option>
                         <option value="Santa Cruz">Santa Cruz</option>
                         <option value="Santa Fe">Santa Fe</option>
-                        <option value="Santiago del Hestero">Santiago del Hestero</option>
+                        <option value="Santiago del Estero">Santiago del Estero</option>
                         <option value="Tierra del Fuego">Tierra del Fuego</option>
                         <option value="Tucumán">Tucumán</option>
                     </select>
-                    <div id="mostrador" class="buscador__mostrador">
-
+                    <div id="mostrador" class="buscador__mostrador ">
+                        <p>Seleccioná una provincia</p>
                     </div>
                 </div>
             </section>

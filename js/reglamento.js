@@ -1,21 +1,31 @@
 fetch("../data.json")
     .then((res) => res.json())
     .then((data) => {
-    pregunta(data);
+    cargar(data);
 });
 
-let buscador = document.getElementById("buscador")
 
-function aviso() {
-    console.log("aviso")
-    let mostrador = document.getElementById("mostrador").innerHTML
-    let parrafo = document.createElement("p")
-    parrafo.innerText("Seleccioná una provincia")
-    mostrador.appendChild(parrafo)
+function cargar(data){
+    delegados = data
+    console.log(delegados)
 }
-function inicio(data) {
-    let provincia = buscador.value
+
+function mostrar(elDelegadoDeLaProvincia) {
+    let datosDelDelegado = delegados.find((x) => {return x.provincia === elDelegadoDeLaProvincia})
+    let mostrador = document.getElementById("mostrador")
+    mostrador.innerHTML=" " //vacio lo q habia
+    let contenedor = document.createElement("div")
+//    contenedor.classList.add("")
+    contenedor.innerHTML= `
+    <p  class="contenedor__provincia">${datosDelDelegado.provincia}</p>
+    <div class="contenedor__img"><img src="../images/${datosDelDelegado.img}" alt="${datosDelDelegado.nombre}, delegado de ${datosDelDelegado.provincia}"></div>
+    <p class="contenedor__nombre">${datosDelDelegado.nombre}</p>
+    <p class="contenedor__email">Email: ${datosDelDelegado.mail} \n  Teléfono: ${datosDelDelegado.telefono}</p>
+    `
+    mostrador.prepend(contenedor)
+    
 }
-function pregunta(data) {
-    buscador.value = ""? aviso(): inicio(data);
-}
+
+let delegados 
+let selector = document.getElementById("buscador")
+
