@@ -257,7 +257,8 @@ body {
         align-items: center; }
         .bailarines__pasos .pasos__buscador .buscador__mostrador .mostrador__texto {
           color: #9b9696;
-          font-size: 1.5rem; }
+          font-size: 1.5rem;
+          text-align: center; }
         .bailarines__pasos .pasos__buscador .buscador__mostrador .mostrador__contenedor .contenedor__provincia {
           font-size: 2.25rem;
           color: #EB5022;
@@ -266,23 +267,24 @@ body {
         .bailarines__pasos .pasos__buscador .buscador__mostrador .mostrador__contenedor .contenedor__img {
           height: 70px;
           width: 70px;
-          border-radius: 100%;
-          display: inline; }
+          border-radius: 100%; }
           .bailarines__pasos .pasos__buscador .buscador__mostrador .mostrador__contenedor .contenedor__img img {
             height: inherit;
             width: inherit;
-            border-radius: 100%; }
+            border-radius: 100%;
+            margin-left: 1rem; }
         .bailarines__pasos .pasos__buscador .buscador__mostrador .mostrador__contenedor .contenedor__nombre {
           font-size: 1.2rem;
-          display: inline;
           color: #585858;
-          padding: 0 1rem; }
+          margin-left: 1.5rem; }
         .bailarines__pasos .pasos__buscador .buscador__mostrador .mostrador__contenedor .contenedor__email {
           color: #585858;
-          margin: .25rem 0; }
+          font-size: 1.1rem;
+          margin: .25rem auto; }
         .bailarines__pasos .pasos__buscador .buscador__mostrador .mostrador__contenedor .contenedor__telefono {
           color: #585858;
-          margin: .25rem 0; }
+          font-size: 1.1rem;
+          margin: .25rem auto; }
       .bailarines__pasos .pasos__buscador .bg-blanco {
         background-color: #F3EFEF; }
 

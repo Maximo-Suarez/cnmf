@@ -89,6 +89,7 @@
                 .mostrador__texto{
                     color: #9b9696;
                     font-size: 1.5rem;
+                    text-align: center;
                 }
                 .mostrador__contenedor{
                     .contenedor__provincia{
@@ -101,28 +102,27 @@
                         height: 70px;
                         width: 70px;
                         border-radius: 100%;
-                        display: inline;
                         img{
                             height: inherit;
                             width: inherit;
                             border-radius: 100%;
+                            margin-left: 1rem;
                         }
                     }
                     .contenedor__nombre{
                         font-size: 1.2rem;
-                        display: inline;
                         color: $color-secundario;
-                        padding: 0 1rem;
+                        margin-left: 1.5rem;
                     }
                     .contenedor__email{
                         color: $color-secundario;
-                        font-size: 1.2rem;
-                        margin: .25rem 0;
+                        font-size: 1.1rem;
+                        margin: .25rem auto;
                     }
                     .contenedor__telefono{
                         color: $color-secundario;
-                        font-size: 1.2rem;
-                        margin: .25rem 0;
+                        font-size: 1.1rem;
+                        margin: .25rem auto;
                     }
                 }
             }
